@@ -7,19 +7,19 @@ const Stats = () => {
   const [counters, setCounters] = useState({
     students: 0,
     faculty: 0,
+    events: 0,
     projects: 0,
-    placements: 0,
-    awards: 0,
-    partnerships: 0,
+    certificates: 0,
+    courses: 0,
   })
 
   const finalStats = {
-    students: 750,
-    faculty: 35,
-    projects: 200,
-    placements: 98,
-    awards: 45,
-    partnerships: 25,
+    students: 59,
+    faculty: 5,
+    events: 10,
+    projects: 20,
+    certificates: 100,
+    courses: 50,
   }
 
   useEffect(() => {
@@ -53,7 +53,7 @@ const Stats = () => {
       icon: Users,
       value: counters.students,
       label: "Active Students",
-      suffix: "+",
+      suffix: "",
       color: "from-purple-500 to-pink-500",
     },
     {
@@ -65,29 +65,29 @@ const Stats = () => {
     },
     {
       icon: BookOpen,
-      value: counters.projects,
-      label: "Research Projects",
+      value: counters.events,
+      label: "Events / Workshops Conducted",
       suffix: "+",
       color: "from-orange-500 to-yellow-500",
     },
     {
       icon: Briefcase,
-      value: counters.placements,
-      label: "Placement Rate",
-      suffix: "%",
+      value: counters.projects,
+      label: "Students Project Completed",
+      suffix: "+",
       color: "from-yellow-500 to-green-500",
     },
     {
       icon: Trophy,
-      value: counters.awards,
-      label: "Awards Won",
+      value: counters.certificates,
+      label: "Certifications Earned",
       suffix: "+",
       color: "from-green-500 to-blue-500",
     },
     {
       icon: Globe,
-      value: counters.partnerships,
-      label: "Industry Partners",
+      value: counters.courses,
+      label: "Skill based Courses Taken",
       suffix: "+",
       color: "from-blue-500 to-purple-500",
     },
