@@ -94,7 +94,7 @@
   }
 
   .btn-secondary {
-    @apply glass-card text-white px-8 py-4 rounded-2xl font-semibold transition-all duration-500 hover:bg-white/30 hover:scale-110 hover:shadow-2xl;
+    @apply glass-card text-white px-8 py-4 rounded-2xl font-semibold shadow-lg transition-all duration-500 hover:bg-white/30 hover:scale-110 hover:shadow-2xl;
   }
 
   .floating-animation {

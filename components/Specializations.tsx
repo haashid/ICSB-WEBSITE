@@ -29,32 +29,7 @@ const Specializations = () => {
       color: "from-purple-500 to-indigo-500",
       bgColor: "from-purple-50 to-indigo-50",
     },
-    {
-      icon: Brain,
-      title: "Artificial Intelligence",
-      description: "Machine learning, deep learning, and intelligent systems that are reshaping every industry.",
-      features: ["Machine Learning", "Computer Vision", "Natural Language Processing", "Robotics"],
-      color: "from-green-500 to-emerald-500",
-      bgColor: "from-green-50 to-emerald-50",
-    },
-    {
-      icon: Database,
-      title: "Data Science",
-      description:
-        "Big data analytics, data mining, and business intelligence solutions for data-driven decision making.",
-      features: ["Data Analytics", "Big Data Processing", "Data Visualization", "Predictive Modeling"],
-      color: "from-orange-500 to-amber-500",
-      bgColor: "from-orange-50 to-amber-50",
-    },
-    {
-      icon: Globe,
-      title: "Cloud Computing",
-      description:
-        "Scalable cloud solutions, distributed systems, and modern infrastructure for next-generation applications.",
-      features: ["Cloud Architecture", "DevOps", "Microservices", "Container Technologies"],
-      color: "from-teal-500 to-blue-500",
-      bgColor: "from-teal-50 to-blue-50",
-    },
+
   ]
 
   return (

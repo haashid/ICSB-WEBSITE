@@ -121,8 +121,8 @@ const UpcomingEvents = () => {
                   </div>
                 </div>
 
-                <button className="w-full btn-primary text-lg group">
-                  Register Now
+                <button className=" btn-primary inline-flex items-center group">
+                   Register Now
                   <ArrowRight className="ml-3 w-5 h-5 transition-transform duration-300 group-hover:translate-x-2" />
                 </button>
               </div>
